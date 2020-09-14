@@ -1,66 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+html, body {
+  background-image: url('./images/bg-pattern-top-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Headline */
 .headline-container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .headline {
-  padding: 10rem;
-  flex: 1;
 }
 
 .headline h1 {
   font-size: 48px;
   color:hsl(300, 43%, 22%);
-  font-weight: 800;
+  font-weight: bold;
 }
 
 .headline p {
   font-size: 24px;
   color: hsl(0deg 1% 55% / 93%);
   font-weight: 500;
+  margin-top: 0.5rem;
 }
 
 /* Reviews */
 
 .reviews {
-  flex: 1;
   font-size: 18px;
-  padding: 10rem;
-  color:hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
   font-weight: 500;
 }
 
 .review-item_one {
   display: flex;
-  background: #ebebeb;
+  flex-direction: column;
+  background: hsl(340deg 53% 37%);
   padding: 1.5rem;
+  margin-top: 0.5rem;
   border-radius: 8px;
 }
 
 .review-item_two {
   display: flex;
-  margin-left: 3rem;
-  margin-top: 1rem;
-  background: #ebebeb;
+  flex-direction: column;
+  background: hsl(340deg 53% 37%);
   padding: 1.5rem;
+  margin-top: 0.5rem;
   border-radius: 8px;
 }
 
 .review-item_three {
   display: flex;
-  margin-left: 6rem;
-  margin-top: 1rem;
-  background: #ebebeb;
+  flex-direction: column;
+  background: hsl(340deg 53% 37%);
   padding: 1.5rem;
+  margin-top: 0.5rem;
   border-radius: 8px;
 }
 
 .stars-container {
-  margin-right: 4rem;
+  margin: 0.5rem;
+}
+
+/* Testimonials */
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.testimonials-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-header {
+  display: flex;
+  flex-direction: row;
 }

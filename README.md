@@ -10,4 +10,8 @@ Using vanilla css for this as this is a fairly straightforward project.
 
 ## Process
 
-Working out the 
+<ol>
+  <li>Writing the markup for this first to give the content structure</li>
+  <li>Styling for the mobile view first</li>
+  <li>Using media queries to style the page at desktop and tablet sizes</li>
+</ol>
